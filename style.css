@@ -1,0 +1,118 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+body{
+    background-color:#fefae0;}
+
+h1{
+    font-family:'Dancing Script';
+   left:38%;
+    font-weight:bolder;
+    position:absolute;
+    font-size:10vh;
+}
+#tag{
+    position:absolute;
+    font-family:'Dancing Script' ;
+    top:20vh;
+    font-weight:bold;
+    font-size:4vh;
+    left:50%;
+}
+  h2{
+    position:absolute;
+    top:28vh;
+    left:33%;
+    font-family: "Cedarville Cursive";
+}
+#navbar{
+    
+    display:flex;
+    padding:15px;
+    justify-content: space-around;
+   background-color: #ccd5ae;
+   align-items: center;
+}
+form{
+    display:flex;
+    justify-content:center;
+}
+.searchbox{
+    flex-grow: 1;
+    margin-right: 6px;
+}
+.searchbox,.searchbtn{
+    border:none;
+    font-size: medium;
+    padding:3px;
+    border-radius: 5px;
+   
+    color:black;
+}
+.searchbtn{
+    background-color: #fefae0;
+    cursor:pointer;
+
+}
+.searchbtn:hover{
+    background-color:#e0e0db;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.recipe-container{
+    text-align: center;
+    margin-top: 150px;
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-gap:40px;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:20px;
+    padding:20px;
+    place-items:center;
+
+}
+.recipe{
+    background-color: #ccd5ae;
+    display:flex;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow:5px 10px 10px 5px #e9edc9;
+    cursor: pointer;
+    max-width:350px;
+   
+}
+.recipe img{
+    height:300px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.recipe p{
+    font-size:20px;
+    margin:5px 0;
+}
+.recipe span{
+    font-weight:500;
+}
+.recipe button{
+    font-size:20px;
+    font-weight:500;
+    padding:10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border:none;
+    background-color: #e9edc9;
+    margin:10px auto;
+}
+.recipe button:hover{
+    background-color:#ccd5ae;
+    
+}
+.recipe-details{
+    display:none;
+}
