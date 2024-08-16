@@ -4,7 +4,7 @@ const recipeCon=document.querySelector('.recipe-container');
 const recipeDetailsContent=document.querySelector('.recipe-details-content');
 const recipeCloseBtn=document.querySelector('.recipe-closeBtn')
 
-
+console.log("suhasss");
 
 const fetchRecipes=async(query)=>{
     recipeCon.innerHTML="<h2>Fetching recipes...</h2>";
